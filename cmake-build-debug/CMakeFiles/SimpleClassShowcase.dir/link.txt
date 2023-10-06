@@ -1,0 +1,3 @@
+"D:\Clion2022\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SimpleClassShowcase.dir/objects.a
+"D:\Clion2022\CLion 2022.2\bin\mingw\bin\ar.exe" qc CMakeFiles\SimpleClassShowcase.dir/objects.a @CMakeFiles\SimpleClassShowcase.dir\objects1.rsp
+"D:\Clion2022\CLion 2022.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\SimpleClassShowcase.dir/objects.a -Wl,--no-whole-archive -o SimpleClassShowcase.exe -Wl,--out-implib,libSimpleClassShowcase.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SimpleClassShowcase.dir\linklibs.rsp
